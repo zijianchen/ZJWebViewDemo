@@ -16,6 +16,9 @@
 		563614D5222E457B00EB68FD /* ZJWebViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 563614D4222E457B00EB68FD /* ZJWebViewDemoTests.m */; };
 		563614E0222E457B00EB68FD /* ZJWebViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 563614DF222E457B00EB68FD /* ZJWebViewDemoUITests.m */; };
 		563614EF222E4BE900EB68FD /* WKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 563614EE222E4BE900EB68FD /* WKWebViewController.m */; };
+		563614F1222E517A00EB68FD /* JSPOST.html in Resources */ = {isa = PBXBuildFile; fileRef = 563614F0222E517A00EB68FD /* JSPOST.html */; };
+		563614F4222E695C00EB68FD /* back_hl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 563614F2222E695B00EB68FD /* back_hl@2x.png */; };
+		563614F5222E695C00EB68FD /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 563614F3222E695C00EB68FD /* back@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,9 @@
 		563614E1222E457B00EB68FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		563614ED222E4BE900EB68FD /* WKWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKWebViewController.h; sourceTree = "<group>"; };
 		563614EE222E4BE900EB68FD /* WKWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKWebViewController.m; sourceTree = "<group>"; };
+		563614F0222E517A00EB68FD /* JSPOST.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = JSPOST.html; sourceTree = "<group>"; };
+		563614F2222E695B00EB68FD /* back_hl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_hl@2x.png"; sourceTree = "<group>"; };
+		563614F3222E695C00EB68FD /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,9 @@
 		563614BA222E457400EB68FD /* ZJWebViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				563614F3222E695C00EB68FD /* back@2x.png */,
+				563614F2222E695B00EB68FD /* back_hl@2x.png */,
+				563614F0222E517A00EB68FD /* JSPOST.html */,
 				563614BB222E457400EB68FD /* AppDelegate.h */,
 				563614BC222E457400EB68FD /* AppDelegate.m */,
 				563614BE222E457400EB68FD /* ViewController.h */,
@@ -241,6 +250,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				563614C8222E457B00EB68FD /* LaunchScreen.storyboard in Resources */,
+				563614F4222E695C00EB68FD /* back_hl@2x.png in Resources */,
+				563614F5222E695C00EB68FD /* back@2x.png in Resources */,
+				563614F1222E517A00EB68FD /* JSPOST.html in Resources */,
 				563614C5222E457B00EB68FD /* Assets.xcassets in Resources */,
 				563614C3222E457400EB68FD /* Main.storyboard in Resources */,
 			);

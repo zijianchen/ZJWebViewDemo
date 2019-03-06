@@ -34,6 +34,12 @@
 
 // 跳转到网页视图控制器
 -(void)jumpLinkAction {
+    WKWebViewController *webController = [[WKWebViewController alloc] init];
+    
+    // test1: 加载外部链接网页
+    [webController loadWebURLStr:@"https://www.baidu.com"];
+    
+    [self.navigationController pushViewController:webController animated:YES];
 }
 
 @end

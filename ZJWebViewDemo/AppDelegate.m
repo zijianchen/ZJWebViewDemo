@@ -22,8 +22,10 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:[[ViewController alloc] init]];
+    
     // 设置屏幕根视图
-    self.window.rootViewController = [[ViewController alloc] init];
+    self.window.rootViewController = nav;
     // 让当前UIWindow变成keyWindow（主窗口）
     [self.window makeKeyAndVisible];
     return YES;

@@ -17,7 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
  
  @param str URL地址
  */
-- (void)loadWebURLSring:(NSString *)str;
+- (void)loadWebURLStr:(NSString *)str;
 
 /**
  加载本地网页
@@ -28,6 +28,14 @@ NS_ASSUME_NONNULL_BEGIN
 
 /** 是否显示Nav */
 @property (nonatomic,assign) BOOL isNavHidden;
+
+/**
+ 加载外部链接POST请求(需预先加载本地JS方法的html实现，请检查 JSPOST.html 文件是否存在 )
+ 
+ @param str 需要POST的URL地址
+ @param postData post请求块，格式：@"\"username\":\"xxxx\",\"password\":\"xxxx\""
+ */
+- (void)POSTWebURLStr:(NSString *)str postData:(NSString *)postData;
 
 @end
 
